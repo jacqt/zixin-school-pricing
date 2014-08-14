@@ -1,0 +1,1427 @@
+[
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": 50000,
+            "hundred_per_boundary": 20000,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": 34193,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": 66116,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Central and Western",
+        "name": "St. Margaret's Girl's College, Hong Kong",
+        "number": 1,
+        "price_by_years": {
+            "year_1_price": 8000,
+            "year_2_price": 8000,
+            "year_3_price": 8000,
+            "year_4_price": 13500,
+            "year_5_price": 13500,
+            "year_6_price": 13500
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Central and Western",
+        "name": "St. Paul's Co-educational College (DSE)",
+        "number": 2,
+        "price_by_years": {
+            "year_1_price": 52000,
+            "year_2_price": 52000,
+            "year_3_price": 52000,
+            "year_4_price": 52000,
+            "year_5_price": 52000,
+            "year_6_price": 52000
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Central and Western",
+        "name": "St. Paul's College",
+        "number": 3,
+        "price_by_years": {
+            "year_1_price": 38000,
+            "year_2_price": 38000,
+            "year_3_price": 38000,
+            "year_4_price": 38000,
+            "year_5_price": 38000,
+            "year_6_price": 38000
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Eastern",
+        "name": "Hon Wah College",
+        "number": 4,
+        "price_by_years": {
+            "year_1_price": 15120,
+            "year_2_price": 15120,
+            "year_3_price": 15120,
+            "year_4_price": 15120,
+            "year_5_price": 15120,
+            "year_6_price": 15120
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Eastern",
+        "name": "Kiangsu-Chekiang College",
+        "number": 5,
+        "price_by_years": {
+            "year_1_price": 4836,
+            "year_2_price": 4836,
+            "year_3_price": 4836,
+            "year_4_price": 4836,
+            "year_5_price": 4836,
+            "year_6_price": 4836
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Eastern",
+        "name": "Pui Kiu Middle School",
+        "number": 6,
+        "price_by_years": {
+            "year_1_price": 6200,
+            "year_2_price": 6200,
+            "year_3_price": 4380,
+            "year_4_price": 9520,
+            "year_5_price": 9520,
+            "year_6_price": 9520
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": 60000,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": 69600,
+            "hundred_per_boundary": 48000,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": 64800,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": 76800,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Eastern",
+        "name": "The Chinese Foundation Secondary School",
+        "number": 7,
+        "price_by_years": {
+            "year_1_price": 13000,
+            "year_2_price": 11800,
+            "year_3_price": 11800,
+            "year_4_price": 17300,
+            "year_5_price": 17300,
+            "year_6_price": 17300
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Islands",
+        "name": "Buddhist Fat Ho Memorial College",
+        "number": 8,
+        "price_by_years": {
+            "year_1_price": 4800,
+            "year_2_price": 4500,
+            "year_3_price": 3000,
+            "year_4_price": 4800,
+            "year_5_price": 4500,
+            "year_6_price": 3000
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Islands",
+        "name": "Caritas Charles Vath College #",
+        "number": 9,
+        "price_by_years": {
+            "year_1_price": 0,
+            "year_2_price": 0,
+            "year_3_price": 0,
+            "year_4_price": 8400,
+            "year_5_price": 8400,
+            "year_6_price": 8400
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Islands",
+        "name": "YMCA of HK Christian College #",
+        "number": 10,
+        "price_by_years": {
+            "year_1_price": 33000,
+            "year_2_price": 31000,
+            "year_3_price": 28000,
+            "year_4_price": 28000,
+            "year_5_price": 24500,
+            "year_6_price": 20000
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 80000,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 50000,
+            "seventyfive_perc_boundary": 65000,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": 90000
+        },
+        "district": "Southern",
+        "name": "HKUGA College",
+        "number": 11,
+        "price_by_years": {
+            "year_1_price": 35000,
+            "year_2_price": 36000,
+            "year_3_price": 37000,
+            "year_4_price": 38000,
+            "year_5_price": 39000,
+            "year_6_price": 40000
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Southern",
+        "name": "St. Stephen's College",
+        "number": 12,
+        "price_by_years": {
+            "year_1_price": 53500,
+            "year_2_price": 53500,
+            "year_3_price": 53500,
+            "year_4_price": 53500,
+            "year_5_price": 53500,
+            "year_6_price": 53500
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Wan Chai",
+        "name": "St. Paul's Convent School",
+        "number": 15,
+        "price_by_years": {
+            "year_1_price": 25000,
+            "year_2_price": 25000,
+            "year_3_price": 25000,
+            "year_4_price": 27500,
+            "year_5_price": 27500,
+            "year_6_price": 27500
+        },
+        "region": "Hong Kong Island"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 67000,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 50000,
+            "seventyfive_perc_boundary": 58500,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": 75500
+        },
+        "district": "Kowloon City",
+        "name": "Diocesan Boys' School (DSE)",
+        "number": 16,
+        "price_by_years": {
+            "year_1_price": 40300,
+            "year_2_price": 40300,
+            "year_3_price": 40300,
+            "year_4_price": 40300,
+            "year_5_price": 40300,
+            "year_6_price": 40300
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kowloon City",
+        "name": "Heep Yunn School",
+        "number": 17,
+        "price_by_years": {
+            "year_1_price": 30000,
+            "year_2_price": 30000,
+            "year_3_price": 30000,
+            "year_4_price": 30000,
+            "year_5_price": 30000,
+            "year_6_price": 30000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": 0,
+            "fifty_perc_boundary": -1000000,
+            "forty_perc_boundary": 3999,
+            "hundred_per_boundary": -1000000,
+            "seventyfive_perc_boundary": -1000000,
+            "sixty_perc_boundary": 1999,
+            "thirtythree_perc_boundary": -1000000,
+            "twenty_perc_boundary": 5500,
+            "twentyfive_perc_boundary": -1000000
+        },
+        "district": "Kowloon City",
+        "name": "HKICC Lee Shau Kee School of Creativity #",
+        "number": 18,
+        "price_by_years": {
+            "year_1_price": 0,
+            "year_2_price": 0,
+            "year_3_price": 0,
+            "year_4_price": 26000,
+            "year_5_price": 26000,
+            "year_6_price": 26000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kowloon City",
+        "name": "PLK Ngan Po Ling College #",
+        "number": 19,
+        "price_by_years": {
+            "year_1_price": 28000,
+            "year_2_price": 28000,
+            "year_3_price": 28000,
+            "year_4_price": 28000,
+            "year_5_price": 28000,
+            "year_6_price": 27000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kowloon City",
+        "name": "Workers' Children Secondary School",
+        "number": 20,
+        "price_by_years": {
+            "year_1_price": 2860,
+            "year_2_price": 2860,
+            "year_3_price": 2860,
+            "year_4_price": 7050,
+            "year_5_price": 7050,
+            "year_6_price": 7050
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kwun Tong",
+        "name": "Delia Memorial School (Hip Wo)",
+        "number": 21,
+        "price_by_years": {
+            "year_1_price": 0,
+            "year_2_price": 0,
+            "year_3_price": 0,
+            "year_4_price": 3000,
+            "year_5_price": 3000,
+            "year_6_price": 3000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kwun Tong",
+        "name": "Delia Memorial School (Matteo Ricci)",
+        "number": 22,
+        "price_by_years": {
+            "year_1_price": 0,
+            "year_2_price": 0,
+            "year_3_price": 0,
+            "year_4_price": 3000,
+            "year_5_price": 3000,
+            "year_6_price": 3000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kwun Tong",
+        "name": "Delia Memorial School (Yuet Wah)",
+        "number": 23,
+        "price_by_years": {
+            "year_1_price": 0,
+            "year_2_price": 0,
+            "year_3_price": 0,
+            "year_4_price": 3000,
+            "year_5_price": 3000,
+            "year_6_price": 3000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kwun Tong",
+        "name": "ECF Saint Too Canaan College #",
+        "number": 24,
+        "price_by_years": {
+            "year_1_price": 17500,
+            "year_2_price": 13250,
+            "year_3_price": 13250,
+            "year_4_price": 13250,
+            "year_5_price": 9950,
+            "year_6_price": 9950
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kwun Tong",
+        "name": "Fukien Secondary School",
+        "number": 25,
+        "price_by_years": {
+            "year_1_price": 15400,
+            "year_2_price": 11200,
+            "year_3_price": 11200,
+            "year_4_price": 13720,
+            "year_5_price": 13720,
+            "year_6_price": 13720
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Kwun Tong",
+        "name": "United Christian College (Kowloon East) #",
+        "number": 27,
+        "price_by_years": {
+            "year_1_price": 26000,
+            "year_2_price": 26000,
+            "year_3_price": 23000,
+            "year_4_price": 23000,
+            "year_5_price": 23000,
+            "year_6_price": 22000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sai Kung",
+        "name": "Creative Secondary School (DSE)",
+        "number": 28,
+        "price_by_years": {
+            "year_1_price": 62450,
+            "year_2_price": 62450,
+            "year_3_price": 65900,
+            "year_4_price": 65900,
+            "year_5_price": 70800,
+            "year_6_price": 70800
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sai Kung",
+        "name": "Evangel College",
+        "number": 29,
+        "price_by_years": {
+            "year_1_price": 19970,
+            "year_2_price": 19970,
+            "year_3_price": 19970,
+            "year_4_price": 19970,
+            "year_5_price": 19970,
+            "year_6_price": 19970
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sai Kung",
+        "name": "G T (Ellen Yeung) College",
+        "number": 30,
+        "price_by_years": {
+            "year_1_price": 32780,
+            "year_2_price": 34980,
+            "year_3_price": 34980,
+            "year_4_price": 37180,
+            "year_5_price": 37180,
+            "year_6_price": 37180
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sai Kung",
+        "name": "Heung To Secondary School (Tsueng Kwan O)",
+        "number": 31,
+        "price_by_years": {
+            "year_1_price": 4000,
+            "year_2_price": 4000,
+            "year_3_price": 4000,
+            "year_4_price": 6650,
+            "year_5_price": 6650,
+            "year_6_price": 6650
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 80000,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 50000,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sai Kung",
+        "name": "HKCCC Union Logos Academy (DSE)",
+        "number": 32,
+        "price_by_years": {
+            "year_1_price": 26000,
+            "year_2_price": 26000,
+            "year_3_price": 26000,
+            "year_4_price": 26000,
+            "year_5_price": 26000,
+            "year_6_price": 26000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sai Kung",
+        "name": "PLK Laws Foundation College",
+        "number": 33,
+        "price_by_years": {
+            "year_1_price": 18000,
+            "year_2_price": 18000,
+            "year_3_price": 18000,
+            "year_4_price": 22000,
+            "year_5_price": 22000,
+            "year_6_price": 22000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sai Kung",
+        "name": "QualiEd College #",
+        "number": 34,
+        "price_by_years": {
+            "year_1_price": 8550,
+            "year_2_price": 6400,
+            "year_3_price": 6400,
+            "year_4_price": 8550,
+            "year_5_price": 8550,
+            "year_6_price": 8550
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "Chan Shu Kui Memorial School",
+        "number": 36,
+        "price_by_years": {
+            "year_1_price": 700,
+            "year_2_price": 700,
+            "year_3_price": 700,
+            "year_4_price": 6000,
+            "year_5_price": 6000,
+            "year_6_price": 6000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "China Holiness College",
+        "number": 37,
+        "price_by_years": {
+            "year_1_price": 2650,
+            "year_2_price": 2650,
+            "year_3_price": 2650,
+            "year_4_price": 5800,
+            "year_5_price": 5800,
+            "year_6_price": 9520
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "Delia Memorial School (Broadway)",
+        "number": 38,
+        "price_by_years": {
+            "year_1_price": 0,
+            "year_2_price": 0,
+            "year_3_price": 0,
+            "year_4_price": 3000,
+            "year_5_price": 3000,
+            "year_6_price": 3000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "Delia Memorial School (Glee Path)",
+        "number": 39,
+        "price_by_years": {
+            "year_1_price": 0,
+            "year_2_price": 0,
+            "year_3_price": 0,
+            "year_4_price": 3000,
+            "year_5_price": 3000,
+            "year_6_price": 3000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "Heung To Middle School",
+        "number": 40,
+        "price_by_years": {
+            "year_1_price": 4280,
+            "year_2_price": 4280,
+            "year_3_price": 4280,
+            "year_4_price": 9130,
+            "year_5_price": 9130,
+            "year_6_price": 9130
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "St. Margaret's Co-educational English Secondary and Primary School",
+        "number": 41,
+        "price_by_years": {
+            "year_1_price": 31240,
+            "year_2_price": 28830,
+            "year_3_price": 25030,
+            "year_4_price": 22410,
+            "year_5_price": 18880,
+            "year_6_price": 18879
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "Tsung Tsin Christian Academy #",
+        "number": 42,
+        "price_by_years": {
+            "year_1_price": 29500,
+            "year_2_price": 28000,
+            "year_3_price": 28000,
+            "year_4_price": 28000,
+            "year_5_price": 26500,
+            "year_6_price": 26500
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "Wai Kiu College",
+        "number": 43,
+        "price_by_years": {
+            "year_1_price": 3000,
+            "year_2_price": 3000,
+            "year_3_price": 3000,
+            "year_4_price": 3200,
+            "year_5_price": 3200,
+            "year_6_price": 3200
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sham Shui Po",
+        "name": "Ying Wa College",
+        "number": 44,
+        "price_by_years": {
+            "year_1_price": 16500,
+            "year_2_price": 16500,
+            "year_3_price": 16500,
+            "year_4_price": 16500,
+            "year_5_price": 16500,
+            "year_6_price": 16500
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Wong Tai Sin",
+        "name": "Good Hope School",
+        "number": 45,
+        "price_by_years": {
+            "year_1_price": 35000,
+            "year_2_price": 35000,
+            "year_3_price": 35000,
+            "year_4_price": 45000,
+            "year_5_price": 45000,
+            "year_6_price": 45000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 37500,
+            "seventyfive_perc_boundary": 47500,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": 70000
+        },
+        "district": "Yau Tsim Mong",
+        "name": "Diocesan Girls' School",
+        "number": 46,
+        "price_by_years": {
+            "year_1_price": 38000,
+            "year_2_price": 38000,
+            "year_3_price": 38000,
+            "year_4_price": 38000,
+            "year_5_price": 38000,
+            "year_6_price": 38000
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Yau Tsim Mong",
+        "name": "HKMA David Li Kwok Po College",
+        "number": 47,
+        "price_by_years": {
+            "year_1_price": 29240,
+            "year_2_price": 30700,
+            "year_3_price": 32230,
+            "year_4_price": 30270,
+            "year_5_price": 28670,
+            "year_6_price": 27260
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Yau Tsim Mong",
+        "name": "Kowloon Sam Yuk Secondary School",
+        "number": 48,
+        "price_by_years": {
+            "year_1_price": 2000,
+            "year_2_price": 1900,
+            "year_3_price": 1800,
+            "year_4_price": 1700,
+            "year_5_price": 1600,
+            "year_6_price": 1500
+        },
+        "region": "Kowloon"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "North",
+        "name": "Fanling Lutheran Secondary School",
+        "number": 49,
+        "price_by_years": {
+            "year_1_price": 5500,
+            "year_2_price": 5500,
+            "year_3_price": 5500,
+            "year_4_price": 4500,
+            "year_5_price": 4500,
+            "year_6_price": 4500
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sha Tin",
+        "name": "Hong Kong Baptist University Affiliated School Wong Kam Fai Secondary and Primary School",
+        "number": 50,
+        "price_by_years": {
+            "year_1_price": 35000,
+            "year_2_price": 35000,
+            "year_3_price": 35000,
+            "year_4_price": 35000,
+            "year_5_price": 35000,
+            "year_6_price": 35000
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sha Tin",
+        "name": "Lam Tai Fai College",
+        "number": 51,
+        "price_by_years": {
+            "year_1_price": 20000,
+            "year_2_price": 20000,
+            "year_3_price": 20000,
+            "year_4_price": 20000,
+            "year_5_price": 16874,
+            "year_6_price": 19470
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": -1,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": -1,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sha Tin",
+        "name": "Pui Kiu College",
+        "number": 53,
+        "price_by_years": {
+            "year_1_price": 24600,
+            "year_2_price": 24600,
+            "year_3_price": 24600,
+            "year_4_price": 31000,
+            "year_5_price": 31000,
+            "year_6_price": 31000
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sha Tin",
+        "name": "Stewards Pooi Kei College",
+        "number": 54,
+        "price_by_years": {
+            "year_1_price": 18500,
+            "year_2_price": 18500,
+            "year_3_price": 18000,
+            "year_4_price": 18000,
+            "year_5_price": 17000,
+            "year_6_price": 16000
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Sha Tin",
+        "name": "Tak Sun Secondary School",
+        "number": 55,
+        "price_by_years": {
+            "year_1_price": 22000,
+            "year_2_price": 22000,
+            "year_3_price": 22000,
+            "year_4_price": 22000,
+            "year_5_price": 22000,
+            "year_6_price": 22000
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 65000,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 35000,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Tai Po",
+        "name": "Law Ting Pong Secondary School",
+        "number": 56,
+        "price_by_years": {
+            "year_1_price": 12500,
+            "year_2_price": 12500,
+            "year_3_price": 12500,
+            "year_4_price": 13000,
+            "year_5_price": 15500,
+            "year_6_price": 15500
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Tai Po",
+        "name": "Tai Po Sam Yuk Secondary School",
+        "number": 57,
+        "price_by_years": {
+            "year_1_price": 5500,
+            "year_2_price": 5500,
+            "year_3_price": 4500,
+            "year_4_price": 4500,
+            "year_5_price": 4500,
+            "year_6_price": 4500
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 69500,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 44000,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Yuen Long",
+        "name": "Chinese Y.M.C.A. Secondary School",
+        "number": 58,
+        "price_by_years": {
+            "year_1_price": 10000,
+            "year_2_price": 10000,
+            "year_3_price": 10000,
+            "year_4_price": 10000,
+            "year_5_price": 10000,
+            "year_6_price": 10000
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 65000,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 39000,
+            "seventyfive_perc_boundary": 52000,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": 78000
+        },
+        "district": "Yuen Long",
+        "name": "ELCHK Lutheran Academy",
+        "number": 59,
+        "price_by_years": {
+            "year_1_price": 49530,
+            "year_2_price": 45860,
+            "year_3_price": 40950,
+            "year_4_price": 52830,
+            "year_5_price": 0,
+            "year_6_price": 0
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 5243,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 2715,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": 5800,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Yuen Long",
+        "name": "Heung To Middle School (Tin Shui Wai)",
+        "number": 60,
+        "price_by_years": {
+            "year_1_price": 3500,
+            "year_2_price": 1600,
+            "year_3_price": 1600,
+            "year_4_price": 4490,
+            "year_5_price": 4490,
+            "year_6_price": 4490
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 66116,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 34193,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Yuen Long",
+        "name": "HKFYG Lee Shau Kee College",
+        "number": 61,
+        "price_by_years": {
+            "year_1_price": 19200,
+            "year_2_price": 19200,
+            "year_3_price": 19200,
+            "year_4_price": 28800,
+            "year_5_price": 28800,
+            "year_6_price": 28800
+        },
+        "region": "New Territories"
+    },
+    {
+        "discount_boundaries": {
+            "eighty_perc_boundary": -1,
+            "fifty_perc_boundary": 62908,
+            "forty_perc_boundary": -1,
+            "hundred_per_boundary": 32534,
+            "seventyfive_perc_boundary": -1,
+            "sixty_perc_boundary": -1,
+            "thirtythree_perc_boundary": -1,
+            "twenty_perc_boundary": -1,
+            "twentyfive_perc_boundary": -1
+        },
+        "district": "Yuen Long",
+        "name": "Pak Kau College",
+        "number": 62,
+        "price_by_years": {
+            "year_1_price": 1800,
+            "year_2_price": 1800,
+            "year_3_price": 1800,
+            "year_4_price": 3800,
+            "year_5_price": 3800,
+            "year_6_price": 3800
+        },
+        "region": "New Territories"
+    }
+]
