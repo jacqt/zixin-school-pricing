@@ -1,5 +1,6 @@
 '''
 Represents a data model to calculate fees
+Also includes methods to serialize it 
 '''
 
 import StringIO
