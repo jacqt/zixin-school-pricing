@@ -1,5 +1,6 @@
 var feeCalculatorControllers = angular.module('feeCalculator', ['serverResources']);
 
+//Boundaries to loop over
 feeCalculatorControllers.boundaries = [
     "hundred_per_boundary",
     "eighty_perc_boundary",
@@ -8,12 +9,12 @@ feeCalculatorControllers.boundaries = [
     "fifty_perc_boundary",
     "forty_perc_boundary",
     "thirtythree_perc_boundary",
-    "twentyfive_perc_boundary" 
-    "twenty_perc_boundary",
+    "twentyfive_perc_boundary",
+    "twenty_perc_boundary"
 ]
 
 // :: String -> Float
-feeCalculator.boundaryToDiscount = function(boundary){
+feeCalculatorControllers.boundaryToDiscount = function(boundary){
     switch (boundary){
         case 'hundred_per_boundary':
             return 1.00;
@@ -41,14 +42,18 @@ feeCalculatorControllers.controller('FeeCalculatorController',
 
                 $scope.schoolFeeList = FeeData.query();
 
-                $scope.numberOfFamilyMembers = 0;
-                $scope.totalParentIncome = 0;
-                $scope.totalOtherFamilyMemberIncome = 0;
-                $scope.propertyExpense = 0;
-                $scope.totalAssets = 0;
-                $scope.disposableIncome = 0;
+                $scope.numberOfFamilyMembers = 5;
+                $scope.totalParentIncome = 30325;
+                $scope.totalOtherFamilyMemberIncome = 80000;
+                $scope.propertyExpense = 12000;
+                $scope.totalAssets = 350000;
 
                 $scope.selectedSchool;
+
+                $scope.selectedSchools = {
+                    schools : [],
+                };
+
                 $scope.prices = {
                     firstChild : {
                         secondarySchool : {
@@ -72,63 +77,82 @@ feeCalculatorControllers.controller('FeeCalculatorController',
                     }
                 };
 
-                //Watch for changes in disposable income
-                $scope.$watchGroup([
-                    'numberOfFamilyMembers',
-                    'totalParentIncome',
-                    'totalOtherFamilyMemberIncome',
-                    'propertyExpense',
-                    'totalAssets' ], function(newValues, oldValues, scope){
-                        var family_num = parseInt(newValues[0]);
-                        var annual_income = parseInt(newValues[1]);
-                        var other_annual_income = parseInt(newValues[2]);
-                        var property_expense = parseInt(newValues[3]);
-                        var total_assets = parseInt(newValues[4]);
+                $scope.addSchool = function(){
+                    $scope.selectedSchools.schools.push({value : $scope.selectedSchool } );
+                    $scope.updatePrices();
+                }
 
-                        $scope.calc_step_a = annual_income;
-                        $scope.calc_step_b = other_annual_income * 0.40;
-                        $scope.calc_step_c = -property_expense;
-                        $scope.calc_step_d = total_assets > 500000 ? (total_assets - 500000)*0.10 : 0;
-                        $scope.disposableIncome = 
-                            $scope.calc_step_a + 
-                            $scope.calc_step_b + 
-                            $scope.calc_step_c + 
-                            $scope.calc_step_d; 
-                        $scope.disposableIncome = 
-                            parseFloat(Math.round($scope.disposable_income * 100) / 100).toFixed(2);
+                $scope.removeSchool = function(school){
+                    var index = $scope.selectedSchools.schools.indexOf(school);
+                    if (index != -1){
+                        $scope.selectedSchools.schools.splice(index, 1);
                     }
-                );
-                //Watch for changes in the calculated price
-                $scope.$watchGroup([
-                        'selectedSchool',
-                        'disposableIncome'
-                        ], function(newValues, oldValues, scope){
-                            var selected_school = parseInt(newValues[0]);
-                            var disposable_income = parseInt(newValues[1]);
+                }
 
-                            var boundaries = feeCalculatorControllers.boundaries;
-                            var discount_boundaries  = selected_school.discount_boundaries;
-                            var discount_percent;
+                //Watch for changes in disposable income
+                $scope.updateDisposableIncome = function(){
+                    var family_num = parseInt($scope.numberOfFamilyMembers);
+                    var annual_income = parseFloat($scope.totalParentIncome);
+                    var other_annual_income = parseFloat($scope.totalOtherFamilyMemberIncome);
+                    var property_expense = parseFloat($scope.propertyExpense);
+                    var total_assets = parseFloat($scope.totalAssets);
 
-                            //Calculate the percent of the fee to discount
-                            for (var i = 0; i != feeCalculatorControllers.boundaries; ++i){
-                                var income_level = discount_boundaries[boundaries[i]];
-                                if (income_level == -1 ){
-                                    continue;
-                                }
-                                if (income_level >= disposable_income) {
-                                    discount_percent = feeCalculatorControllers.boundaryToDiscount(boundaries[i]);
-                                    break;
+                    $scope.calc_step_a = annual_income;
+                    $scope.calc_step_b = other_annual_income * 0.40;
+                    $scope.calc_step_c = -property_expense;
+                    $scope.calc_step_d = total_assets > 500000 ? (total_assets - 500000)*0.10 : 0;
+                    $scope.disposableIncome = 
+                        $scope.calc_step_a + 
+                        $scope.calc_step_b + 
+                        $scope.calc_step_c + 
+                        $scope.calc_step_d; 
+                    $scope.disposableIncome = 
+                        parseFloat(Math.round($scope.disposableIncome * 100) / 100).toFixed(2);
+                    console.log($scope.disposableIncome);
+                }
+
+                $scope.updatePrices = function(scope){
+                    var disposable_income = parseFloat($scope.disposableIncome);
+                    for (var i = 0; i < $scope.selectedSchools.schools.length; ++i){
+                        var school = $scope.selectedSchools.schools[i].value;
+
+                        var boundaries = feeCalculatorControllers.boundaries;
+                        var discount_boundaries  = school.discount_boundaries;
+                        var discount_percent = 0.00;
+
+                        //Calculate the percent of the fee to discount
+                        for (var j = 0; j != feeCalculatorControllers.boundaries.length; ++j){
+                            var income_level = discount_boundaries[boundaries[j]];
+                            if (income_level == -1 ){
+                                continue;
+                            }
+                            if (income_level >= disposable_income) {
+                                discount_percent = feeCalculatorControllers.boundaryToDiscount(boundaries[j]);
+                                break;
+                            }
+                        }
+                        console.log(discount_percent);
+
+                        //Calculate the prices
+                        var price_by_years = school.price_by_years;
+                        $scope.selectedSchools.schools[i].value.prices = {
+                            firstChild : {
+                                secondarySchool : {
+                                    Y1 : price_by_years.year_1_price * (1 - discount_percent),
+                                    Y2 : price_by_years.year_2_price * (1 - discount_percent),
+                                    Y3 : price_by_years.year_3_price * (1 - discount_percent),
+                                    Y4 : price_by_years.year_4_price * (1 - discount_percent),
+                                    Y5 : price_by_years.year_5_price * (1 - discount_percent),
+                                    Y6 : price_by_years.year_6_price * (1 - discount_percent)
                                 }
                             }
+                        };
+                        console.log($scope.selectedSchools.schools[i].prices);
+                    }
+                }
+                //Watch for changes in the calculated price
+                $scope.$watch( 'disposableIncome' , $scope.updatePrices);
 
-                            var price_by_years = selected_school.price_by_years;
-                            $scope.year_1_price = price_by_years.year_1_price * discount_percent;
-                            $scope.year_2_price = price_by_years.year_2_price * discount_percent;
-                            $scope.year_3_price = price_by_years.year_3_price * discount_percent;
-                            $scope.year_4_price = price_by_years.year_4_price * discount_percent;
-                            $scope.year_5_price = price_by_years.year_5_price * discount_percent;
-                            $scope.year_6_price = price_by_years.year_6_price * discount_percent;
-                        });
+                $scope.updateDisposableIncome();
 
             }]);

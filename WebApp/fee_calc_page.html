@@ -1,42 +1,116 @@
 <html ng-app="feeCalculator">
     <head>
-        <!-- Angular dependencies -->
+        <!-- Angular dependencies . May want to consider actually downloading them so that we can work offline-->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular-resource.min.js"></script>
         
 
         <script src="js/server_resources.js"></script>
         <script src="js/fee_calculator.js"></script>
+
+        <style>
+            .horizontal_wide_box {
+                float : left;
+                margin : 5px, 30px, 5px, 30px;
+                width: 400px;
+            }
+            .horizontal_box {
+                float : left;
+                margin : 5px, 30px, 5px, 30px;
+                width: 100px;
+            }
+            .no_bullet {
+                list-style-type: none;
+                float : left;
+            }
+        </style>
     </head>
 
         <div ng-controller="FeeCalculatorController">
-            <label> School </label>
-            <select 
-                ng-model="selectedSchool"
-                ng-options = "school.name for school in schoolFeeList">
-            </select>
-            <br />
+
+            <!-- TODO: Format this nicely -->
+            <h1> SCHOOL FEE CALCULATOR </h1>
+            <h2> DISPOSALBE INCOME STUFF </h2>
             <label>Number of Family Members </label>
-                <input type="text" ng-model="numberOfFamilyMembers"/>
+                <input type="text" ng-model="numberOfFamilyMembers" ng-change="updateDisposableIncome()"/>
             <br />
             <label>Total Income of Applicant and Applicant Spouce</label>
-                <input type="text" ng-model="totalParentIncome"/>
+                <input type="text" ng-model="totalParentIncome" ng-change="updateDisposableIncome()" />
             <br />
             <label>Total Income of Other Family Members Living in same Residence</label>
-                <input type="text" ng-model="totalOtherFamilyMemberIncome"/>
+                <input type="text" ng-model="totalOtherFamilyMemberIncome" ng-change="updateDisposableIncome()" />
             <br />
             <label> Total Spent on Rent / Mortgage/ etc. </label>
-                <input type="text" ng-model="propertyExpense"/>
+                <input type="text" ng-model="propertyExpense" ng-change="updateDisposableIncome()"/>
             <br />
             <label> Total Assets </label>
-                <input type="text" ng-model="totalAssets"/>
-            <br />
-            Selected School 
-            {{selectedSchool}}
+                <input type="text" ng-model="totalAssets" ng-change="updateDisposableIncome()"/>
             <br />
             Disposable Income 
             {{disposableIncome}}$
             <br />
+            <br />
+            <h2> COMPARE YOUR SCHOOLS </h2>
+            <h3> Schools Selected </h3>
+            <ul>
+                <li ng-repeat = "school in selectedSchools.schools">
+                    <button ng-click="removeSchool(school)"> Remove </button>
+                    {{school.value.name}}
+                </li>
+            </ul>
+            <select 
+                ng-model="selectedSchool"
+                ng-options = "school.name for school in schoolFeeList">
+            </select>
+            <button ng-click="addSchool()"> Add School </button>
+            <ul>
+                <li class = "no_bullet">
+                    <div class = "horizontal_wide_box">
+                        Name
+                    </div>
+                    <div class = "horizontal_box">
+                        S1
+                    </div>
+                    <div class = "horizontal_box">
+                        S2
+                    </div>
+                    <div class = "horizontal_box">
+                        S3
+                    </div>
+                    <div class = "horizontal_box">
+                        S4
+                    </div>
+                    <div class = "horizontal_box">
+                        S5
+                    </div>
+                    <div class = "horizontal_box">
+                        S6
+                    </div>
+                </li>
+                <li class = "no_bullet" ng-repeat = "school in selectedSchools.schools">
+                    <div class = "horizontal_wide_box">
+                        {{school.value.name}}
+                    </div>
+                    <div class = "horizontal_box">
+                        {{school.value.prices.firstChild.secondarySchool.Y1}}
+                    </div>
+                    <div class = "horizontal_box">
+                        {{school.value.prices.firstChild.secondarySchool.Y2}}
+                    </div>
+                    <div class = "horizontal_box">
+                        {{school.value.prices.firstChild.secondarySchool.Y3}}
+                    </div>
+                    <div class = "horizontal_box">
+                        {{school.value.prices.firstChild.secondarySchool.Y4}}
+                    </div>
+                    <div class = "horizontal_box">
+                        {{school.value.prices.firstChild.secondarySchool.Y5}}
+                    </div>
+                    <div class = "horizontal_box">
+                        {{school.value.prices.firstChild.secondarySchool.Y6}}
+                    </div>
+                </li>
+            </ul>
 
         </div>
     <body>
