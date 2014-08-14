@@ -106,6 +106,7 @@ feeCalculatorControllers.controller('FeeCalculatorController',
                         $scope.calc_step_b + 
                         $scope.calc_step_c + 
                         $scope.calc_step_d; 
+                    //$scope.disposableIncome = $scope.disposableIncome / (family_num + 1)
                     $scope.disposableIncome = 
                         parseFloat(Math.round($scope.disposableIncome * 100) / 100).toFixed(2);
                     console.log($scope.disposableIncome);
