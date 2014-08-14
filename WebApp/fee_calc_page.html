@@ -10,14 +10,34 @@
     </head>
 
         <div ng-controller="FeeCalculatorController">
+            <label> School </label>
             <select 
-                ng-model="SelectedSchool"
-                ng-options = "school.name for school in SchoolFeeList">
+                ng-model="selectedSchool"
+                ng-options = "school.name for school in schoolFeeList">
             </select>
-            {{SelectedSchool}}
-
+            <br />
+            <label>Number of Family Members </label>
+                <input type="text" ng-model="numberOfFamilyMembers"/>
+            <br />
+            <label>Total Income of Applicant and Applicant Spouce</label>
+                <input type="text" ng-model="totalParentIncome"/>
+            <br />
+            <label>Total Income of Other Family Members Living in same Residence</label>
+                <input type="text" ng-model="totalOtherFamilyMemberIncome"/>
+            <br />
+            <label> Total Spent on Rent / Mortgage/ etc. </label>
+                <input type="text" ng-model="propertyExpense"/>
+            <br />
+            <label> Total Assets </label>
+                <input type="text" ng-model="totalAssets"/>
+            <br />
+            Selected School 
+            {{selectedSchool}}
+            <br />
+            Disposable Income 
+            {{disposable_income}}$
+            <br />
         </div>
-
     <body>
     </body>
 </html>
