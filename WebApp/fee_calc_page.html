@@ -1,0 +1,24 @@
+<html ng-app="feeCalculator">
+    <head>
+        <!-- Angular dependencies -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular-resource.min.js"></script>
+        
+
+        <script src="js/server_resources.js"></script>
+        <script src="js/fee_calculator.js"></script>
+    </head>
+
+        <div ng-controller="FeeCalculatorController">
+            <select 
+                ng-model="SelectedSchool"
+                ng-options = "school.name for school in SchoolFeeList">
+            </select>
+            {{SelectedSchool}}
+
+        </div>
+
+    <body>
+    </body>
+</html>
+
