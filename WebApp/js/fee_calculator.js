@@ -107,9 +107,12 @@ feeCalculatorControllers.controller('FeeCalculatorController',
                         $scope.calc_step_c + 
                         $scope.calc_step_d; 
                     //$scope.disposableIncome = $scope.disposableIncome / (family_num + 1)
-                    $scope.disposableIncome = 
-                        parseFloat(Math.round($scope.disposableIncome * 100) / 100).toFixed(2);
+                    $scope.disposableIncome = $scope.roundToTwoPlaces($scope.disposableIncome);
                     console.log($scope.disposableIncome);
+                }
+
+                $scope.roundToTwoPlaces = function(flt){
+                    return parseFloat(Math.round(flt * 100) / 100).toFixed(2);
                 }
 
                 $scope.updatePrices = function(scope){
@@ -139,12 +142,12 @@ feeCalculatorControllers.controller('FeeCalculatorController',
                         $scope.selectedSchools.schools[i].value.prices = {
                             firstChild : {
                                 secondarySchool : {
-                                    Y1 : price_by_years.year_1_price * (1 - discount_percent),
-                                    Y2 : price_by_years.year_2_price * (1 - discount_percent),
-                                    Y3 : price_by_years.year_3_price * (1 - discount_percent),
-                                    Y4 : price_by_years.year_4_price * (1 - discount_percent),
-                                    Y5 : price_by_years.year_5_price * (1 - discount_percent),
-                                    Y6 : price_by_years.year_6_price * (1 - discount_percent)
+                                    Y1 : $scope.roundToTwoPlaces(price_by_years.year_1_price * (1 - discount_percent)),
+                                    Y2 : $scope.roundToTwoPlaces(price_by_years.year_2_price * (1 - discount_percent)),
+                                    Y3 : $scope.roundToTwoPlaces(price_by_years.year_3_price * (1 - discount_percent)),
+                                    Y4 : $scope.roundToTwoPlaces(price_by_years.year_4_price * (1 - discount_percent)),
+                                    Y5 : $scope.roundToTwoPlaces(price_by_years.year_5_price * (1 - discount_percent)),
+                                    Y6 : $scope.roundToTwoPlaces(price_by_years.year_6_price * (1 - discount_percent))
                                 }
                             }
                         };
