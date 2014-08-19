@@ -106,7 +106,7 @@ feeCalculatorControllers.controller('FeeCalculatorController',
                         $scope.calc_step_b + 
                         $scope.calc_step_c + 
                         $scope.calc_step_d; 
-                    //$scope.disposableIncome = $scope.disposableIncome / (family_num + 1)
+                    $scope.disposableIncome = $scope.disposableIncome / (family_num + 1)
                     $scope.disposableIncome = $scope.roundToTwoPlaces($scope.disposableIncome);
                     console.log($scope.disposableIncome);
                 }
