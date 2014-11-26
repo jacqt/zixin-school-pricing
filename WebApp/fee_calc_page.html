@@ -64,55 +64,53 @@
                 ng-options = "school.name for school in schoolFeeList">
             </select>
             <button ng-click="addSchool()"> Add School </button>
-            <ul>
-                <li class = "no_bullet">
-                    <div class = "horizontal_wide_box">
+            <table border="2">
+                <tr class = "no_bullet">
+                    <td class = "horizontal_wide_box">
                         Name
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         S1
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         S2
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         S3
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         S4
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         S5
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         S6
-                    </div>
-                </li>
-                <li class = "no_bullet" ng-repeat = "school in selectedSchools.schools">
-                    <div class = "horizontal_wide_box">
+                    </td>
+                </tr>
+                <tr class = "no_bullet" ng-repeat = "school in selectedSchools.schools">
+                    <td class = "horizontal_wide_box">
                         {{school.value.name}}
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         {{school.value.prices.firstChild.secondarySchool.Y1}}
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         {{school.value.prices.firstChild.secondarySchool.Y2}}
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         {{school.value.prices.firstChild.secondarySchool.Y3}}
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         {{school.value.prices.firstChild.secondarySchool.Y4}}
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         {{school.value.prices.firstChild.secondarySchool.Y5}}
-                    </div>
-                    <div class = "horizontal_box">
+                    </td>
+                    <td class = "horizontal_box">
                         {{school.value.prices.firstChild.secondarySchool.Y6}}
-                    </div>
-                </li>
-            </ul>
-
+                    </td>
+                </tr>
         </div>
     </body>
 </html>
